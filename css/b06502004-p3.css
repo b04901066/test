@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+}
+
+.a-nav {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    z-index: 2;
+    background-color: #636363;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+}
+
+nav ul {
+    text-align: center
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0em;
+    margin-right: 3em;
+}
+
+#section1 {
+    padding-top: 3em;
+    background-color: fff;
+}
+
+#section2 {
+    height: 30em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #7b98ff;
+}
+
+#section3 {
+    height: 21em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background-color: #abe1ff;
+}
+
+#section4 {
+    padding-top: 3em;
+    /* margin-top: 3em; */
+    margin-bottom: 3em;
+    background-color: #e7f6ff;
+}
+
+.img-background {
+    width: 100%;
+    height: 100%;
+}
+
+.img-personal {
+    width: 30em;
+}
+
+div.img {
+    position: absolute;
+    margin-left: 3em;
+}
+
+div.table1 {
+    position: absolute;
+    margin-left: 600px;
+    color: black;
+    font-size: 28px;
+    line-height: 1.6em;
+    font-family: 微軟正黑體;
+    font-weight: bolder;
+}
+
+div.table2 {
+    position: absolute;
+    width: 100%;
+    /* border: rgba(0, 0, 0, 0); */
+    /* border-style: none; */
+    text-align: center;
+}
+
+#contact {
+    width: 100%;
+    /* border: black; */
+    /* border-style: solid; */
+    text-align: center;
+}
+
+#t2_r2 {
+    height: 96px;
+    font-size: 44px;
+    font-family: 微軟正黑體;
+}
+
+#t2_r2d {
+    width: 33.33%;
+}
+
+.center {
+    text-align: center
+}
+
+.lefttop {
+    position: absolute;
+    margin-left: 3em;
+    margin-top: 4em;
+}
+
+.title {
+    font-size: 39px;
+    margin-bottom: 23px;
+    font-family: 微軟正黑體;
+}
+
+.title2 {
+    font-size: 39px;
+    font-family: 微軟正黑體;
+    position: absolute;
+    width: 100%;
+    margin-top: -1.2em;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+.colorfb {
+    color: #2e3fab;
+}
+
+.colorig {
+    color: #fc147d;
+}
+
+.colormail {
+    color: #000000;
+}
+
+.t3 {
+    font-style: 微軟正黑體;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    border-color: black;
+    border-width: 3px;
+    border-style: inset;
+    width: 100%;
+    height: 100%;
+}
+
+.t3_th {
+    font-size: 30px;
+    height: 40px;
+    font-weight: bolder;
+    font-size-adjust: inherit;
+    background-color: rgb(140, 248, 16);
+    color: black;
+}
+
+.t3_tr:nth-child(even) {
+    background-color: lightgray
+}
